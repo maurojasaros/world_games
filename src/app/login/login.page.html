@@ -1,0 +1,30 @@
+<ion-content [fullscreen]="true">
+  <div class="login-container">
+    <ion-card class="login-card">
+      <ion-card-header>
+        <ion-card-title class="login-title">Inicia Sesión en World Games</ion-card-title>
+      </ion-card-header>
+
+      <ion-card-content>
+        <ion-item class="input-item">
+          <ion-label position="floating">Correo Electrónico</ion-label>
+          <ion-input type="email"></ion-input>
+        </ion-item>
+
+        <ion-item class="input-item">
+          <ion-label position="floating">Contraseña</ion-label>
+          <ion-input type="password"></ion-input>
+        </ion-item>
+
+        <ion-button expand="block" class="login-button">Iniciar sesión</ion-button>
+
+        <div class="extra-options">
+          <ion-button expand="block" fill="clear" class="register-button">Regístrate</ion-button>
+          <ion-text class="forgot-password">
+            <a href="#">¿Olvidaste tu contraseña?</a>
+          </ion-text>
+        </div>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>
